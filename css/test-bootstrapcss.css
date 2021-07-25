@@ -1,0 +1,336 @@
+body{
+    background-image: linear-gradient(to right,#000000FF,#FFFFFFFF,#00203FFF,rgb(48, 204, 165));
+    background-position: right bottom, left top;
+    background-repeat: no-repeat,no-repeat ;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-weight: 550;
+    font-size: 19px;
+   box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+   
+    background-color: rgb(45, 187, 187);
+   
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 2;
+}
+
+@keyframes example {
+    0%   {background-color: #000000FF;}
+  25%  {background-color: #FFFFFFFF;}
+  50%  {background-color: #00203FFF;}
+  100% {background-color: #ADEFD1FF;}
+  }
+
+
+  
+.logo { 
+    width: 100px;
+   position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.a{
+    font-size: 20px;
+    font-family:fantasy;
+    margin-right: 80px;
+    
+    width: 80px;
+}
+.a:hover{
+    background: rgb(21, 163, 163);
+    color:rgb(233, 17, 17);
+    padding: 5px;
+    box-shadow: 5px 5px red;
+}
+
+.nv{
+    display: inline-block;
+    margin-left: 300px;
+  
+}
+
+
+img#workout{
+    width: 100%;
+    height:700px;
+    
+}
+
+video {
+    width: 100%;
+    height: auto;
+  }
+
+
+.jacks{
+
+    background-color: rgb(131, 173, 46);
+    color:rgb(255, 8, 8);
+    
+    height: 600px;
+   
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(238, 11, 11);
+}
+
+
+.pulls{
+    background-color: rosybrown;
+    color: black;
+ 
+    height: 600px;
+    
+    border-radius: 25px;
+    box-shadow: 15px 15px royalblue;
+}
+
+.ajit{
+
+     background-color: rgb(241, 109, 14);
+    color: rgb(51, 82, 141);
+    
+  
+   
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(12, 164, 175);
+}
+
+.scissors{
+    background-color: rgb(12, 231, 129);
+    color:rgb(78, 124, 82);
+
+    height: 600px;
+   
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(93, 11, 160);
+}
+
+.cat{
+    background-color: rgb(97, 92, 92);
+    color: rgb(201, 233, 20);
+   
+   
+  
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(196, 11, 11);
+}
+
+
+.phone{
+    background-color: rgb(175, 160, 150);
+    color: rgb(49, 15, 201);
+  
+   
+  
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(9, 182, 23);
+}
+
+
+
+
+
+
+.about{
+
+    width: 100%;
+    
+    
+  
+    background: #66CDAA;
+
+}
+.pata{
+    width: 500px;
+    height: 600px;
+    
+
+    background-color:white;
+
+    
+}
+.form{
+   
+    margin-left:150px;
+    height: auto;
+    background-color:white;
+    color:rgb(59, 57, 57);
+    
+
+}
+
+div.contact{
+margin-left: 500px;   
+    color:black;
+}
+.form{
+
+    width:300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+
+.container1{
+    position: absolute;
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.myrightctn{
+    position: relative;
+    background-image: linear-gradient(45deg,#f046ff,#9b00e8);
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myleftctn{
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    padding-left: 50px;
+}
+.row{
+    height: 100%;
+}
+.mycard{
+    position: relative;
+    background: #fff;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+
+}
+.box{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.myleftctn  .myinput {
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+
+.myleftctn .myleftctn:focus{
+    outline: none;
+}
+
+.myform{
+    position: relative;
+    margin-top: 50px;
+}
+
+.myleftctn .butt{
+
+    background: linear-gradient(45deg,#bb36fd,#9b00e8);
+    color: #fff;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+}
+
+
+.myleftctn .butt:hover{
+    background: linear-gradient(45deg,#c85bff,#b726ff);
+
+}
+
+
+
+img#foo
+{
+   
+   width: 60px;
+    margin-left: 50px;
+}
+
+footer{
+background-color:lightseagreen;
+}
+
+.foot{
+    color:white;
+    text-align: center;
+   
+}
+
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background:  #E1306C;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #E1306C;
+  }

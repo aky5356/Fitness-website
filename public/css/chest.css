@@ -1,0 +1,141 @@
+body{
+    background-image: linear-gradient(to right,#000000FF,#FFFFFFFF,#00203FFF,rgb(48, 204, 165));
+    background-position: right bottom, left top;
+    background-repeat: no-repeat,no-repeat ;
+        
+    font-family: 'Allerta Stencil', sans-serif;
+    font-weight: 500;
+}
+
+.header{
+    width: 100%;
+   
+    background-color: rgb(45, 187, 187);
+   
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 2;
+}
+
+@keyframes example {
+    0%   {background-color: #000000FF;}
+  25%  {background-color: #FFFFFFFF;}
+  50%  {background-color: #00203FFF;}
+  100% {background-color: #ADEFD1FF;}
+  }
+
+
+  
+.logo { 
+    width: 100px;
+   position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.a{
+    font-size: 20px;
+    font-family:fantasy;
+    margin-right: 80px;
+    
+    width: 80px;
+}
+.a:hover{
+    background: rgb(7, 218, 102);
+    color:rgb(233, 17, 17);
+    padding: 5px;
+    box-shadow: 5px 5px red;
+}
+
+.nv{
+    display: inline-block;
+    margin-left: 300px;
+  
+}
+
+
+img#workout{
+    width: 100%;
+    height:700px;
+    
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.jacks{
+
+    background-color:wheat;
+    color: rgb(29, 69, 190);
+    border-radius: 25px;
+    box-shadow: 15px 15px red;
+}
+
+.incline{
+    background-color: rgb(125, 175, 147);
+    color:black;
+    border-radius: 25px;
+    box-shadow: 15px 15px honeydew;
+
+}
+
+.wide{
+
+    background-color: rgb(190, 203, 228);
+    color: rgb(255, 0, 0);
+    border-radius: 25px;
+    box-shadow: 15px 15px blue;
+
+}
+
+.triceps{
+
+    background-color:rgb(209, 207, 202);
+    color: rgba(5, 66, 252, 0.966);
+    border-radius: 25px;
+    box-shadow: 15px 15px yellowgreen;
+
+}
+
+.knee{
+
+    background-color: rgb(101, 143, 119);
+    color:rgb(210, 255, 8);
+    border-radius: 25px;
+    box-shadow: 15px 15px burlywood;
+
+
+}
+
+.cobra{
+
+    background-color: rgb(150, 214, 175);
+    color: rgb(253, 8, 172);
+    border-radius: 25px;
+    box-shadow: 15px 15px black;
+
+}
+
+
+
+img#foo
+{
+   
+   width: 60px;
+    margin-left: 50px;
+}
+
+footer{
+background-color:lightseagreen;
+}
+
+.foot{
+    color:white;
+    text-align: center;
+   
+}

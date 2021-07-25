@@ -1,0 +1,158 @@
+
+body{
+
+    background-image: linear-gradient(to right,#000000FF,#FFFFFFFF,#00203FFF,rgb(48, 204, 165));
+    background-position: right bottom, left top;
+    background-repeat: no-repeat,no-repeat ;
+    font-size: medium;
+    font-family: 'Mate SC', serif;
+   
+
+}
+.header{
+    width: 100%;
+   
+    background-color: rgb(43, 156, 156);
+   
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes example {
+    0%   {background-color: #000000FF;}
+  25%  {background-color: #FFFFFFFF;}
+  50%  {background-color: #00203FFF;}
+  100% {background-color: #ADEFD1FF;}
+  }
+
+
+  
+.logo { 
+    width: 100px;
+   position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.a{
+    font-size: 20px;
+    font-family:fantasy;
+    margin-right: 80px;
+    
+    width: 80px;
+}
+.a:hover{
+    background: rgb(184, 212, 23);
+    color:rgb(233, 17, 17);
+    padding: 5px;
+    box-shadow: 5px 5px red;
+}
+
+.nv{
+    display: inline-block;
+    margin-left: 300px;
+  
+}
+
+img#workout{
+    width: 100%;
+    height:700px;
+    
+}
+
+
+video {
+    width: 100%;
+    height: auto;
+  }
+
+.side{
+
+    background-color: lightcyan;
+    color: black;
+    border-radius: 25px;     
+    box-shadow: 15px 15px brown;
+}
+
+.squats{
+
+    background-color: lightgreen;
+    color: red;
+    border-radius:25px ;
+    box-shadow: 15px 15px white;
+}
+.lying
+{
+   
+    color:rgb(146, 212, 14);
+    background-color: rgb(138, 108, 126);
+    border-radius: 25px;
+    box-shadow: 15px 15px purple;
+}
+
+.lyingright{
+
+   
+    background-color: cornsilk;
+    color:black;
+    border-radius: 25px;
+    box-shadow: 15px 15px green;
+}
+
+
+.backward{
+
+    
+    background-color: chartreuse;
+    color: red;
+    box-shadow: 15px 15px black;
+}
+
+
+.donkey{
+  
+    background-color: seagreen;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 15px 15px blue;
+
+}
+
+.donkeyright{
+
+  
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    box-shadow: 15px 15px yellow;
+
+}
+
+.quad{
+
+   
+    background-color: teal;
+    color: orange;
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(66, 20, 173);
+}
+
+
+
+img#foo
+{
+   
+   width: 60px;
+    margin-left: 50px;
+}
+
+footer{
+background-color:lightseagreen;
+}
+
+.foot{
+    color:white;
+    text-align: center;
+   
+}

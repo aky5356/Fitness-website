@@ -1,0 +1,149 @@
+body{
+    background-image: linear-gradient(to right,#000000FF,#FFFFFFFF,#00203FFF,rgb(48, 204, 165));
+    background-position: right bottom, left top;
+    background-repeat: no-repeat,no-repeat ;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-weight: 550;
+    font-size: 19px;
+   
+}
+
+.header{
+    width: 100%;
+   
+    background-color: rgb(77, 153, 153);
+   
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 2;
+}
+
+@keyframes example {
+    0%   {background-color: #000000FF;}
+  25%  {background-color: #FFFFFFFF;}
+  50%  {background-color: #00203FFF;}
+  100% {background-color: #ADEFD1FF;}
+  }
+
+
+  
+.logo { 
+    width: 100px;
+   position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.a{
+    font-size: 20px;
+    font-family:fantasy;
+    margin-right: 80px;
+    
+    width: 80px;
+}
+.a:hover{
+    background: rgb(16, 31, 160);
+    color:rgb(233, 17, 17);
+    padding: 5px;
+    box-shadow: 5px 5px red;
+}
+
+.nv{
+    display: inline-block;
+    margin-left: 300px;
+  
+}
+
+
+img#workout{
+    width: 100%;
+    height:700px;
+    
+}
+
+.card{
+    border: none;
+}
+
+video {
+    width: 100%;
+    height: auto;
+  }
+
+div.jacks{
+    background-color: rgb(131, 173, 46);
+    color:rgb(255, 8, 8);
+   
+   
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(238, 11, 11);
+   
+}
+
+
+div.pulls{
+    background-color: rosybrown;
+    color: black;
+  
+    
+    border-radius: 25px;
+    box-shadow: 15px 15px royalblue;
+}
+
+div.knee{
+    background-color: rgb(241, 109, 14);
+    color: rgb(51, 82, 141);
+    
+    
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(12, 164, 175);
+}
+
+
+
+
+
+
+div.scissors{
+    background-color: rgb(12, 231, 129);
+    color:rgb(78, 124, 82);
+  
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(93, 11, 160);
+}
+
+
+div.cat{
+    background-color: rgb(97, 92, 92);
+    color: rgb(201, 233, 20);
+
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(196, 11, 11);
+}
+
+div.phone{
+    background-color: rgb(175, 160, 150);
+    color: rgb(49, 15, 201);
+    
+    border-radius: 25px;
+    box-shadow: 15px 15px rgb(9, 182, 23);
+}
+
+
+
+img#foo
+{
+   
+   width: 60px;
+    margin-left: 50px;
+}
+
+footer{
+background-color:lightseagreen;
+}
+
+.foot{
+    color:white;
+    text-align: center;
+   
+}

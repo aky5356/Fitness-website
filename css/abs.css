@@ -1,0 +1,151 @@
+body
+{
+    
+    background-image: linear-gradient(to right,#000000FF,#FFFFFFFF,#00203FFF,rgb(48, 204, 165));
+    background-position: right bottom, left top;
+    background-repeat: no-repeat,no-repeat ;
+            
+    
+    font-family: 'Mate SC', serif;
+    font-size: medium;
+    font-weight: 500;
+}
+.header{
+    width: 100%;
+   
+    background-color: rgb(45, 187, 187);
+   
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 2;
+}
+
+@keyframes example {
+    0%   {background-color: #000000FF;}
+  25%  {background-color: #FFFFFFFF;}
+  50%  {background-color: #00203FFF;}
+  100% {background-color: #ADEFD1FF;}
+  }
+
+
+  
+.logo { 
+    width: 100px;
+   position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.a{
+    font-size: 20px;
+    font-family:fantasy;
+    margin-right: 80px;
+    
+    width: 80px;
+}
+.a:hover{
+    background: rgb(179, 136, 17);
+    color:rgb(233, 17, 17);
+    padding: 5px;
+    box-shadow: 5px 5px red;
+}
+
+.nv{
+    display: inline-block;
+    margin-left: 300px;
+  
+}
+
+
+img#workout{
+    width: 100%;
+    height:700px;
+    
+}
+
+
+
+video {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+div.jumping{
+
+    background-color: aqua;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 15px 15px red;
+   
+}
+
+div.ab{
+    background-color: burlywood;
+    color: darkgreen;
+    border-radius: 15px;
+    box-shadow: 15px 15px blue;
+
+}
+
+div.russian{
+
+    background-color: cadetblue;
+    color:rgb(35, 252, 7);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 15px 15px gold;
+
+}
+
+
+
+div.mountain{
+
+    background-color: rgb(24, 102, 138);
+    color: rgb(26, 240, 6);
+   
+   border-radius: 15px;
+   box-shadow: 15px 15px gray;
+
+}
+
+div.heel{
+    background-color: rgb(105, 98, 134);
+    color: rgb(248, 244, 8);
+
+   border-radius: 15px;
+   box-shadow: 15px 15px peru;
+
+}
+
+div.legraise{
+
+    background-color: rgb(176, 209, 211);
+    color:rgb(241, 10, 10);
+    
+    border-radius: 15px;
+    box-shadow: 15px 15px palegreen;
+
+}
+
+
+
+img#foo
+{
+   
+   width: 60px;
+    margin-left: 50px;
+}
+
+footer{
+background-color:lightseagreen;
+}
+
+.foot{
+    color:white;
+    text-align: center;
+   
+}
